@@ -4,7 +4,7 @@
 // echo '<pre>';
 // var_dump($_POST);
 // echo '</pre>';
-define('JSON','contatos.json');
+define('JSON','https://63591f81ff3d7bddb9998ad6.mockapi.io/contato');
 
 function carregaDadosFormParaVetor(){
     $destino = '';
