@@ -58,11 +58,11 @@ function nextID($dados){
 }
 
 function carregaDoArquivoParaVetor(){
-    if (file_exists(JSON)){
+ //   if (file_exists(JSON)){
         $conteudo = file_get_contents(JSON);
         $contatos = json_decode($conteudo,true);
         return $contatos;
-    }
+ //   }
     return null;
 
 }
